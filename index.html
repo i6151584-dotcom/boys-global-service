@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="欧区、澳新、拉美、东南亚男童招商运营服务站，汇集男童趋势、招商品类、上新与资质要求、营销日历。">
+  <title>男童全球招商运营服务站</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="男童招商运营服务站首页">
+      <span class="brand-mark">✦</span>
+      <span>男童招商运营服务站</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="打开导航" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a class="active" href="#home">首页</a>
+      <a href="#regions">欧区</a><a href="#regions">澳新</a><a href="#regions">拉美</a><a href="#regions">东南亚</a>
+      <a href="#modules">趋势与工具</a><a href="#calendar">营销日历</a>
+    </nav>
+    <label class="search-box">
+      <span aria-hidden="true">⌕</span>
+      <input id="siteSearch" type="search" placeholder="搜索国家、品类、节日…" aria-label="搜索国家、品类、节日">
+    </label>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-doodle doodle-one">✳</div><div class="hero-doodle doodle-two">↗</div>
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> GLOBAL BOYSWEAR HUB</span>
+        <h1>把男童好生意<br><span>带向全球市场</span></h1>
+        <p>欧区 · 澳新 · 拉美 · 东南亚</p>
+        <div class="hero-tags"><span>趋势洞察</span><span>招商品类</span><span>上新合规</span><span>营销节点</span></div>
+        <a class="button button-dark" href="#regions">探索区域机会 <span>↗</span></a>
+      </div>
+      <div class="hero-art" aria-label="男童潮流服装插画">
+        <div class="sunburst"></div>
+        <div class="sticker sticker-top">BOYS<br>STYLE!</div>
+        <div class="fashion-card card-back">
+          <div class="mini-shirt shirt-blue"></div><span>STREET<br>READY</span>
+        </div>
+        <div class="fashion-card card-front">
+          <div class="mini-shirt shirt-cream"><b>GOOD<br>VIBES</b></div><span>NEW<br>SEASON</span>
+        </div>
+        <div class="art-scribble">✦</div>
+        <div class="art-caption">PLAY<br>YOUR<br>STYLE</div>
+        <div class="art-bottom">KIDS / DAILY / OUTDOOR</div>
+      </div>
+      <div class="hero-note">好趋势<br>一起抓住！ ↗</div>
+    </section>
+
+    <section class="section regions-section" id="regions">
+      <div class="section-heading">
+        <div><span class="section-kicker">01 / MARKET MAP</span><h2>四大区域 · 招商机会</h2></div>
+        <p>从市场特点出发，找到更适合当地消费者的男童商品。</p>
+      </div>
+      <div class="region-grid" id="regionGrid">
+        <article class="region-card latam searchable" data-search="拉美 哥伦比亚 巴西 墨西哥 夏季 短袖 印花 价格带">
+          <div class="region-top"><span class="region-icon">LATAM</span><span class="region-arrow">↗</span></div>
+          <h3>拉美 <small>LATIN AMERICA</small></h3><p>国家差异明显 · 兼顾性价比与风格</p>
+          <div class="region-tags"><span>印花T恤</span><span>日常休闲</span><span>轻薄下装</span></div>
+          <a href="#marketDetails" class="text-link" data-region="拉美">查看区域要点 <b>→</b></a>
+        </article>
+        <article class="region-card europe searchable" data-search="欧区 欧洲 英国 德国 法国 意大利 西班牙 童装 秋冬 质量 合规">
+          <div class="region-top"><span class="region-icon">EU</span><span class="region-arrow">↗</span></div>
+          <h3>欧区 <small>EUROPE</small></h3><p>多国市场 · 重视品质与合规</p>
+          <div class="region-tags"><span>四季穿搭</span><span>秋冬层搭</span><span>节日主题</span></div>
+          <a href="#marketDetails" class="text-link" data-region="欧区">查看区域要点 <b>→</b></a>
+        </article>
+        <article class="region-card sea searchable" data-search="东南亚 泰国 马来西亚 菲律宾 新加坡 印尼 热带 轻薄 透气">
+          <div class="region-top"><span class="region-icon">SEA</span><span class="region-arrow">↗</span></div>
+          <h3>东南亚 <small>SOUTHEAST ASIA</small></h3><p>热带气候 · 轻薄透气全年可关注</p>
+          <div class="region-tags"><span>短袖套装</span><span>薄款长裤</span><span>活力印花</span></div>
+          <a href="#marketDetails" class="text-link" data-region="东南亚">查看区域要点 <b>→</b></a>
+        </article>
+        <article class="region-card anz searchable" data-search="澳新 澳大利亚 新西兰 夏季 防晒 户外 T恤 短裤">
+          <div class="region-top"><span class="region-icon">ANZ</span><span class="region-arrow">↗</span></div>
+          <h3>澳新 <small>AUSTRALIA & NZ</small></h3><p>季节反转 · 关注户外与舒适</p>
+          <div class="region-tags"><span>夏季单品</span><span>户外活动</span><span>防晒需求</span></div>
+          <a href="#marketDetails" class="text-link" data-region="澳新">查看区域要点 <b>→</b></a>
+        </article>
+      </div>
+      <div class="detail-panel" id="marketDetails" aria-live="polite">
+        <div class="detail-icon">✳</div><div><strong id="detailTitle">区域要点速览</strong><p id="detailText">点击任意区域卡片，查看首轮招商切入建议。以下内容为初始运营假设，正式招商前建议结合站点数据校准。</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="modules">
+      <div class="section-heading">
+        <div><span class="section-kicker">02 / SELLER TOOLKIT</span><h2>商家必备 · 招商工具箱</h2></div>
+        <p>快速了解做什么、怎么上、何时上。</p>
+      </div>
+      <div class="module-grid">
+        <a class="module-card trend searchable" href="#trendPanel" data-search="趋势 招商品类 T恤 POLO 卫衣 裤子 套装 外套">
+          <div class="module-icon">↗</div><div class="module-art art-clothes"><span class="hoodie"></span><span class="tee"></span><span class="shorts"></span><i>NEW<br>DROP</i></div>
+          <span class="module-label">TREND & CATEGORY</span><h3>男童趋势与招商品类</h3><p>从基础款到主题印花，梳理值得关注的品类方向。</p><span class="module-cta">浏览品类 <b>→</b></span>
+        </a>
+        <a class="module-card compliance searchable" href="#compliancePanel" data-search="上新 资质 CPC GCC 睡衣 阻燃 标签 尺码表">
+          <div class="module-icon">✓</div><div class="module-art art-check"><span class="clipboard">✓<br>✓<br>✓</span><span class="seal">OK</span></div>
+          <span class="module-label">LISTING & COMPLIANCE</span><h3>上新与资质要求</h3><p>梳理上新流程、商品信息准备及合规核对事项。</p><span class="module-cta">查看清单 <b>→</b></span>
+        </a>
+        <a class="module-card calendar searchable" href="#calendar" data-search="营销日历 节日 万圣节 圣诞节 返校季 黑五">
+          <div class="module-icon">▦</div><div class="module-art art-calendar"><div class="calendar-sheet"><b>PLAN</b><span>✦</span><span>12</span><small>KEY DATES</small></div><i>★</i></div>
+          <span class="module-label">SEASONAL PLANNER</span><h3>营销日历与节庆节点</h3><p>提前规划节庆主题、季节商品与上新节奏。</p><span class="module-cta">打开日历 <b>→</b></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section split-section" id="trendPanel">
+      <div class="content-block">
+        <span class="section-kicker">03 / WHAT TO SOURCE</span><h2>男童重点关注品类</h2>
+        <p class="section-intro">以下为可用于首轮招商沟通的品类框架。具体优先级应结合目标站点的销量、点击、转化和价格带数据动态调整。</p>
+        <div class="category-list">
+          <button class="category-chip active" data-category="全部">全部品类</button>
+          <button class="category-chip" data-category="上装">上装</button>
+          <button class="category-chip" data-category="下装">下装</button>
+          <button class="category-chip" data-category="套装">套装</button>
+          <button class="category-chip" data-category="外套">外套</button>
+          <button class="category-chip" data-category="节庆">节庆主题</button>
+        </div>
+        <div class="product-grid" id="productGrid">
+          <article class="product-tile searchable" data-category="上装" data-search="T恤 POLO 印花 上装 基础款"><div class="product-visual visual-tee">T</div><b>印花 T 恤 / POLO</b><small>日常基础 · 图案主题</small></article>
+          <article class="product-tile searchable" data-category="下装" data-search="短裤 长裤 下装 运动"><div class="product-visual visual-shorts">SHORTS</div><b>短裤 / 休闲长裤</b><small>舒适版型 · 易搭配</small></article>
+          <article class="product-tile searchable" data-category="套装" data-search="套装 两件套 运动套装"><div class="product-visual visual-set">SET</div><b>两件套 / 运动套装</b><small>搭配完整 · 方便上新</small></article>
+          <article class="product-tile searchable" data-category="外套" data-search="卫衣 夹克 外套 秋冬"><div class="product-visual visual-jacket">JKT</div><b>卫衣 / 夹克 / 外套</b><small>按当地季节规划</small></article>
+          <article class="product-tile searchable" data-category="节庆" data-search="节庆 万圣节 圣诞节 主题印花"><div class="product-visual visual-holiday">★</div><b>节庆主题服装</b><small>提前准备设计与库存</small></article>
+        </div>
+      </div>
+      <aside class="tip-card">
+        <span class="tip-sticker">BUYER'S NOTE</span><div class="tip-emoji">✎</div><h3>招商沟通小提示</h3>
+        <ul><li>优先找有稳定男童基础款或印花货盘的商家。</li><li>按国家与季节匹配商品，不用一套货盘覆盖所有市场。</li><li>用真实经营数据验证价格带与品类机会，避免仅凭经验判断。</li></ul>
+        <a class="button button-outline" href="#calendar">查看营销规划 →</a>
+      </aside>
+    </section>
+
+    <section class="section compliance-section" id="compliancePanel">
+      <div class="section-heading">
+        <div><span class="section-kicker">04 / LISTING CHECKLIST</span><h2>上新与资质 · 基础核对</h2></div>
+        <p>用于准备资料和内部核对，不替代平台规则或目的国法规。</p>
+      </div>
+      <div class="checklist-grid">
+        <article class="check-card"><span class="check-number">01</span><h3>商品资料</h3><p>标题、属性、尺码表、材质成分、商品图片与包装信息。</p><span class="check-tag">上品前核对</span></article>
+        <article class="check-card"><span class="check-number">02</span><h3>儿童产品合规</h3><p>按销售国家、产品类型与适用年龄，确认测试、证书及标签要求。</p><span class="check-tag">按市场确认</span></article>
+        <article class="check-card"><span class="check-number">03</span><h3>儿童睡衣特别注意</h3><p>美国儿童睡衣可能涉及特定阻燃标准；不要将一般服装要求直接套用到所有市场。</p><span class="check-tag">单独核实</span></article>
+        <article class="check-card"><span class="check-number">04</span><h3>发布前复核</h3><p>检查类目、尺码范围、图片信息、标签和文件有效性，按平台最新要求提交。</p><span class="check-tag">发布前复核</span></article>
+      </div>
+      <p class="notice"><b>提示：</b>不同国家和产品类型的要求可能不同；CPC、GCC 等文件的适用范围也不同。实际操作请以平台后台最新规则及目标市场法规为准。</p>
+    </section>
+
+    <section class="section calendar-section" id="calendar">
+      <div class="section-heading">
+        <div><span class="section-kicker">05 / PLAN AHEAD</span><h2>营销日历 · 提前布局</h2></div>
+        <p>初始节庆参考清单，可按国家和月份持续补充。</p>
+      </div>
+      <div class="calendar-toolbar">
+        <label>区域筛选 <select id="calendarRegion"><option value="全部">全部区域</option><option>欧区</option><option>澳新</option><option>拉美</option><option>东南亚</option></select></label>
+        <label>月份筛选 <select id="calendarMonth"><option value="全部">全年</option><option value="1">1月</option><option value="2">2月</option><option value="3">3月</option><option value="4">4月</option><option value="5">5月</option><option value="6">6月</option><option value="7">7月</option><option value="8">8月</option><option value="9">9月</option><option value="10">10月</option><option value="11">11月</option><option value="12">12月</option></select></label>
+        <span id="calendarCount" class="count-label">共 8 个节点</span>
+      </div>
+      <div class="calendar-table-wrap"><table class="calendar-table"><thead><tr><th>时间</th><th>营销节点</th><th>适用区域</th><th>男童商品方向</th><th>建议动作</th></tr></thead><tbody id="calendarBody"></tbody></table></div>
+      <p class="notice">节庆日期、促销周期和当地热度会因国家而异。这里是规划起点，不代表平台活动安排；建议每年复核日期并提前测试需求。</p>
+    </section>
+
+    <section class="bottom-cta">
+      <div><span class="section-kicker">LET'S GROW TOGETHER</span><h2>把好货盘，带到更多市场。</h2><p>持续更新区域趋势、招商品类与上新资料，让商家少走弯路。</p></div>
+      <a class="button button-light" href="mailto:">联系招商运营 <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">✦</span><span>男童招商运营服务站</span></a><p>趋势洞察 · 招商品类 · 上新合规 · 营销规划</p><span>© <span id="year"></span> Boyswear Global Hub</span></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
